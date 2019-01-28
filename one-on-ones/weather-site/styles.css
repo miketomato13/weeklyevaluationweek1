@@ -45,6 +45,7 @@
   display: inline;
   font-size: 5em;
   border: 1px black solid;
+  padding: 20px;
 }
 
 @media (max-width: 600px) {
