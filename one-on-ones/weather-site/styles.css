@@ -1,0 +1,55 @@
+.rainy {
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.cloudy {
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.sunny {
+  background=image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.date {
+  font-size: 1.5em;
+ font-weight: bold;
+ margin-bottom: 1em;
+}
+
+.search {
+  margin-bottom: 2em;
+}
+
+.typeofweather {
+  margin-bottom: 7em;
+}
+
+
+.tempbox {
+  display: inline;
+  font-size: 5em;
+  border: 1px black solid;
+}
+
+@media (max-width: 600px) {
+
+      .tempbox {
+            color: black;
+       }
+
+}
